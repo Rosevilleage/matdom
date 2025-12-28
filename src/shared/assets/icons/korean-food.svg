@@ -1,0 +1,46 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 밥그릇 -->
+  <ellipse cx="60" cy="85" rx="35" ry="8" fill="#8B7355" opacity="0.3"/>
+  <path d="M25 55C25 55 28 45 60 45C92 45 95 55 95 55V75C95 85 82 95 60 95C38 95 25 85 25 75V55Z" fill="#E8DDD3"/>
+  <path d="M25 55C25 55 28 45 60 45C92 45 95 55 95 55V75C95 85 82 95 60 95C38 95 25 85 25 75V55Z" fill="url(#bowl-gradient)" opacity="0.6"/>
+  <ellipse cx="60" cy="55" rx="35" ry="10" fill="#F5EDE3"/>
+  <path d="M25 55C25 55 28 45 60 45C92 45 95 55 95 55" stroke="#D4C4B0" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- 밥 알갱이 -->
+  <ellipse cx="60" cy="50" rx="30" ry="12" fill="#FFFFFF"/>
+  <ellipse cx="45" cy="48" rx="4" ry="3" fill="#FFF5E6" opacity="0.9"/>
+  <ellipse cx="55" cy="46" rx="3" ry="2.5" fill="#FFF5E6" opacity="0.9"/>
+  <ellipse cx="65" cy="47" rx="3.5" ry="3" fill="#FFF5E6" opacity="0.9"/>
+  <ellipse cx="75" cy="49" rx="3" ry="2" fill="#FFF5E6" opacity="0.9"/>
+  <ellipse cx="50" cy="51" rx="2.5" ry="2" fill="#FFF5E6" opacity="0.8"/>
+  <ellipse cx="70" cy="52" rx="2.5" ry="2" fill="#FFF5E6" opacity="0.8"/>
+  <ellipse cx="60" cy="49" rx="3" ry="2.5" fill="#FFF5E6" opacity="0.9"/>
+  
+  <!-- 김치 조각 -->
+  <path d="M48 44C48 44 50 40 52 40C54 40 56 44 56 44" fill="#DC5555" opacity="0.8"/>
+  <path d="M48 44C48 44 50 40 52 40C54 40 56 44 56 44" stroke="#C73838" stroke-width="1" fill="none"/>
+  
+  <!-- 숟가락 -->
+  <ellipse cx="85" cy="28" rx="5" ry="7" fill="#C0C0C0"/>
+  <ellipse cx="85" cy="28" rx="4" ry="6" fill="url(#spoon-gradient)"/>
+  <rect x="83.5" y="32" width="3" height="35" rx="1.5" fill="#C0C0C0"/>
+  <rect x="84" y="32" width="2" height="35" rx="1" fill="url(#handle-gradient)"/>
+  <ellipse cx="85" cy="28" rx="2.5" ry="4" fill="#E8E8E8" opacity="0.6"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bowl-gradient" x1="60" y1="45" x2="60" y2="95">
+      <stop offset="0%" stop-color="#F5EDE3" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#D4C4B0" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="spoon-gradient" x1="85" y1="22" x2="85" y2="35">
+      <stop offset="0%" stop-color="#E8E8E8"/>
+      <stop offset="100%" stop-color="#A0A0A0"/>
+    </linearGradient>
+    <linearGradient id="handle-gradient" x1="85" y1="32" x2="85" y2="67">
+      <stop offset="0%" stop-color="#D0D0D0"/>
+      <stop offset="50%" stop-color="#B0B0B0"/>
+      <stop offset="100%" stop-color="#D0D0D0"/>
+    </linearGradient>
+  </defs>
+</svg>

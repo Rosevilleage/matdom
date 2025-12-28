@@ -1,0 +1,74 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 그림자 -->
+  <ellipse cx="60" cy="90" rx="25" ry="5" fill="#000000" opacity="0.2"/>
+  
+  <!-- 피자 조각 도우 -->
+  <path d="M60 85L35 35C35 35 40 30 60 30C80 30 85 35 85 35L60 85Z" fill="#F5DBA3"/>
+  <path d="M60 85L35 35C35 35 40 30 60 30C80 30 85 35 85 35L60 85Z" fill="url(#dough-gradient)"/>
+  
+  <!-- 크러스트 (테두리) -->
+  <path d="M35 35C35 35 40 30 60 30C80 30 85 35 85 35" stroke="#D4A574" stroke-width="5" stroke-linecap="round"/>
+  <path d="M35 35C35 35 40 30 60 30C80 30 85 35 85 35" stroke="#E8C896" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- 크러스트 버블 -->
+  <circle cx="40" cy="33" r="1.5" fill="#F5E6C8" opacity="0.8"/>
+  <circle cx="52" cy="31" r="1.5" fill="#F5E6C8" opacity="0.8"/>
+  <circle cx="68" cy="31" r="1.5" fill="#F5E6C8" opacity="0.8"/>
+  <circle cx="80" cy="34" r="1.5" fill="#F5E6C8" opacity="0.8"/>
+  
+  <!-- 토마토 소스 레이어 -->
+  <path d="M60 82L38 38C38 38 42 34 60 34C78 34 82 38 82 38L60 82Z" fill="#D84A3D" opacity="0.7"/>
+  
+  <!-- 치즈 -->
+  <path d="M60 80L40 40C40 40 44 36 60 36C76 36 80 40 80 40L60 80Z" fill="#FFF4B8"/>
+  <path d="M60 80L40 40C40 40 44 36 60 36C76 36 80 40 80 40L60 80Z" fill="url(#cheese-gradient)"/>
+  
+  <!-- 치즈 녹은 질감 -->
+  <path d="M42 42C42 42 46 40 60 40C74 40 78 42 78 42" stroke="#F5E6A8" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+  <path d="M44 48C44 48 50 46 60 46C70 46 76 48 76 48" stroke="#F5E6A8" stroke-width="1.5" opacity="0.5" stroke-linecap="round"/>
+  
+  <!-- 페퍼로니 -->
+  <circle cx="52" cy="52" r="5" fill="#C73A2E"/>
+  <circle cx="52" cy="52" r="5" fill="url(#pepperoni-gradient)"/>
+  <circle cx="52" cy="52" r="3.5" fill="#B03228" opacity="0.6"/>
+  
+  <circle cx="68" cy="56" r="5" fill="#C73A2E"/>
+  <circle cx="68" cy="56" r="5" fill="url(#pepperoni-gradient)"/>
+  <circle cx="68" cy="56" r="3.5" fill="#B03228" opacity="0.6"/>
+  
+  <circle cx="58" cy="65" r="4.5" fill="#C73A2E"/>
+  <circle cx="58" cy="65" r="4.5" fill="url(#pepperoni-gradient)"/>
+  <circle cx="58" cy="65" r="3" fill="#B03228" opacity="0.6"/>
+  
+  <circle cx="64" cy="70" r="4" fill="#C73A2E"/>
+  <circle cx="64" cy="70" r="4" fill="url(#pepperoni-gradient)"/>
+  <circle cx="64" cy="70" r="2.5" fill="#B03228" opacity="0.6"/>
+  
+  <!-- 바질 잎 -->
+  <ellipse cx="48" cy="62" rx="3" ry="4" fill="#6BA159" transform="rotate(-20 48 62)"/>
+  <path d="M47 60L48 59L49 60L48 63Z" fill="#5A8A48"/>
+  
+  <ellipse cx="70" cy="68" rx="2.5" ry="3.5" fill="#6BA159" transform="rotate(15 70 68)"/>
+  <path d="M69 66L70 65L71 66L70 69Z" fill="#5A8A48"/>
+  
+  <!-- 치즈 스트링 (녹은 치즈) -->
+  <path d="M55 75C55 75 56 78 58 78" stroke="#FFF4B8" stroke-width="2" opacity="0.8" stroke-linecap="round"/>
+  <path d="M62 77C62 77 63 79 65 79" stroke="#FFF4B8" stroke-width="1.5" opacity="0.7" stroke-linecap="round"/>
+  
+  <defs>
+    <linearGradient id="dough-gradient" x1="60" y1="30" x2="60" y2="85">
+      <stop offset="0%" stop-color="#F5E6C8"/>
+      <stop offset="100%" stop-color="#D4A574"/>
+    </linearGradient>
+    <radialGradient id="cheese-gradient" cx="60" cy="50">
+      <stop offset="0%" stop-color="#FFFEF0"/>
+      <stop offset="50%" stop-color="#FFF4B8"/>
+      <stop offset="100%" stop-color="#F5DC82"/>
+    </radialGradient>
+    <radialGradient id="pepperoni-gradient" cx="50%" cy="30%">
+      <stop offset="0%" stop-color="#E84A3D"/>
+      <stop offset="70%" stop-color="#C73A2E"/>
+      <stop offset="100%" stop-color="#A82C22"/>
+    </radialGradient>
+  </defs>
+</svg>

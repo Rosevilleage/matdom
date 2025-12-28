@@ -1,0 +1,106 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 그림자 -->
+  <ellipse cx="60" cy="86" rx="38" ry="7" fill="#000000" opacity="0.2"/>
+  
+  <!-- 접시 -->
+  <ellipse cx="60" cy="75" rx="36" ry="10" fill="#FFFFFF"/>
+  <ellipse cx="60" cy="75" rx="36" ry="10" fill="url(#plate-gradient)"/>
+  <ellipse cx="60" cy="72" rx="34" ry="8" fill="#F8F8F8"/>
+  <path d="M26 72C26 72 32 68 60 68C88 68 94 72 94 72" stroke="#E8E8E8" stroke-width="1.5"/>
+  
+  <!-- 커리 소스 베이스 -->
+  <path d="M32 62C30 58 30 52 34 48C38 44 46 42 56 42C66 42 74 44 78 48C82 52 82 58 80 62C78 66 72 68 62 68C52 68 34 66 32 62Z" 
+        fill="#D4A024"/>
+  <path d="M32 62C30 58 30 52 34 48C38 44 46 42 56 42C66 42 74 44 78 48C82 52 82 58 80 62C78 66 72 68 62 68C52 68 34 66 32 62Z" 
+        fill="url(#curry-gradient)"/>
+  
+  <!-- 커리 하이라이트 -->
+  <path d="M36 52C36 52 42 48 56 48C70 48 76 52 76 52" stroke="#E8B830" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  <ellipse cx="56" cy="54" rx="18" ry="8" fill="#F5C842" opacity="0.3"/>
+  
+  <!-- 커리 스파이스 입자 -->
+  <circle cx="42" cy="54" r="1" fill="#C48A1A" opacity="0.6"/>
+  <circle cx="48" cy="58" r="1.2" fill="#C48A1A" opacity="0.6"/>
+  <circle cx="54" cy="56" r="0.8" fill="#C48A1A" opacity="0.5"/>
+  <circle cx="62" cy="58" r="1" fill="#C48A1A" opacity="0.6"/>
+  <circle cx="68" cy="55" r="1.2" fill="#C48A1A" opacity="0.5"/>
+  <circle cx="52" cy="62" r="0.8" fill="#C48A1A" opacity="0.4"/>
+  
+  <!-- 감자 덩어리 -->
+  <ellipse cx="46" cy="56" rx="5" ry="4" fill="#E8D5A0"/>
+  <ellipse cx="46" cy="56" rx="5" ry="4" fill="url(#potato-gradient)"/>
+  <circle cx="45" cy="55" r="0.8" fill="#F5E6B8" opacity="0.6"/>
+  
+  <ellipse cx="64" cy="58" rx="6" ry="5" fill="#E8D5A0"/>
+  <ellipse cx="64" cy="58" rx="6" ry="5" fill="url(#potato-gradient)"/>
+  <circle cx="63" cy="57" r="0.8" fill="#F5E6B8" opacity="0.6"/>
+  
+  <!-- 당근 -->
+  <ellipse cx="52" cy="60" rx="3" ry="2.5" fill="#FF8C42" transform="rotate(20 52 60)"/>
+  <ellipse cx="70" cy="60" rx="3" ry="2.5" fill="#FF8C42" transform="rotate(-15 70 60)"/>
+  
+  <!-- 고기 -->
+  <ellipse cx="58" cy="52" rx="4" ry="3" fill="#A0522D" opacity="0.7"/>
+  <path d="M56 52L60 52" stroke="#8B4513" stroke-width="0.5" opacity="0.6"/>
+  
+  <!-- 밥 (오른쪽) -->
+  <ellipse cx="76" cy="62" rx="12" ry="14" fill="#FFFFFF"/>
+  <ellipse cx="76" cy="62" rx="12" ry="14" fill="url(#rice-gradient)"/>
+  
+  <!-- 밥 알갱이 텍스처 -->
+  <circle cx="72" cy="58" r="1.2" fill="#FFF9F0" opacity="0.8"/>
+  <circle cx="76" cy="60" r="1.2" fill="#FFF9F0" opacity="0.8"/>
+  <circle cx="80" cy="59" r="1" fill="#FFF9F0" opacity="0.8"/>
+  <circle cx="74" cy="62" r="1" fill="#FFF9F0" opacity="0.7"/>
+  <circle cx="78" cy="63" r="1.2" fill="#FFF9F0" opacity="0.8"/>
+  <circle cx="76" cy="66" r="1" fill="#FFF9F0" opacity="0.7"/>
+  <circle cx="80" cy="64" r="1" fill="#FFF9F0" opacity="0.7"/>
+  
+  <!-- 밥 윤곽 -->
+  <path d="M64 62C64 62 66 54 76 52C86 54 88 62 88 62" stroke="#F5F0E8" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 난 (인도빵) 왼쪽 하단 -->
+  <ellipse cx="38" cy="72" rx="10" ry="6" fill="#F5E6C8" transform="rotate(-15 38 72)"/>
+  <ellipse cx="38" cy="72" rx="10" ry="6" fill="url(#naan-gradient)" transform="rotate(-15 38 72)"/>
+  
+  <!-- 난 구운 자국 -->
+  <ellipse cx="36" cy="71" rx="2" ry="1.5" fill="#D4A574" opacity="0.5" transform="rotate(-15 36 71)"/>
+  <ellipse cx="40" cy="73" rx="1.5" ry="1" fill="#D4A574" opacity="0.4" transform="rotate(-15 40 73)"/>
+  <ellipse cx="38" cy="70" rx="1" ry="0.8" fill="#D4A574" opacity="0.4" transform="rotate(-15 38 70)"/>
+  
+  <!-- 고수 잎 장식 -->
+  <path d="M54 46C54 46 56 44 58 46L56 49Z" fill="#7CB958" opacity="0.8"/>
+  <path d="M54 46L58 46" stroke="#5A8A48" stroke-width="0.5"/>
+  <line x1="56" y1="46" x2="56" y2="42" stroke="#5A8A48" stroke-width="1"/>
+  
+  <!-- 스파이스 (스타 아니스) -->
+  <circle cx="66" cy="52" r="2" fill="#8B4513" opacity="0.6"/>
+  <line x1="64.5" y1="52" x2="67.5" y2="52" stroke="#6B3410" stroke-width="0.5"/>
+  <line x1="66" y1="50.5" x2="66" y2="53.5" stroke="#6B3410" stroke-width="0.5"/>
+  
+  <defs>
+    <linearGradient id="plate-gradient" x1="60" y1="65" x2="60" y2="85">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </linearGradient>
+    <radialGradient id="curry-gradient" cx="56" cy="52">
+      <stop offset="0%" stop-color="#E8B830"/>
+      <stop offset="50%" stop-color="#D4A024"/>
+      <stop offset="100%" stop-color="#C48A1A"/>
+    </radialGradient>
+    <linearGradient id="potato-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5E6B8"/>
+      <stop offset="100%" stop-color="#D4C49A"/>
+    </linearGradient>
+    <linearGradient id="rice-gradient" x1="76" y1="48" x2="76" y2="76">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FFF9F0"/>
+      <stop offset="100%" stop-color="#F5EBD8"/>
+    </linearGradient>
+    <radialGradient id="naan-gradient" cx="38" cy="72">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F5E6C8"/>
+      <stop offset="100%" stop-color="#E8D5B0"/>
+    </radialGradient>
+  </defs>
+</svg>

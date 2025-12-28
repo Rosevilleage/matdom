@@ -1,0 +1,77 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 접시 그림자 -->
+  <ellipse cx="60" cy="88" rx="40" ry="8" fill="#000000" opacity="0.2"/>
+  
+  <!-- 접시 -->
+  <ellipse cx="60" cy="78" rx="38" ry="10" fill="#FFFFFF"/>
+  <ellipse cx="60" cy="78" rx="38" ry="10" fill="url(#plate-gradient)"/>
+  <ellipse cx="60" cy="75" rx="35" ry="8" fill="#F5F5F5"/>
+  <path d="M25 75C25 75 30 72 60 72C90 72 95 75 95 75" stroke="#E0E0E0" stroke-width="1.5"/>
+  
+  <!-- 스테이크 -->
+  <ellipse cx="60" cy="60" rx="22" ry="16" fill="#8B4513"/>
+  <ellipse cx="60" cy="60" rx="22" ry="16" fill="url(#steak-gradient)"/>
+  
+  <!-- 스테이크 굽기 표면 -->
+  <path d="M42 55C42 55 48 52 60 52C72 52 78 55 78 55" stroke="#5D2F0F" stroke-width="2" opacity="0.7" stroke-linecap="round"/>
+  <path d="M44 58C44 58 50 56 60 56C70 56 76 58 76 58" stroke="#5D2F0F" stroke-width="1.5" opacity="0.5" stroke-linecap="round"/>
+  <path d="M40 62C40 62 48 60 60 60C72 60 80 62 80 62" stroke="#5D2F0F" stroke-width="2" opacity="0.7" stroke-linecap="round"/>
+  
+  <!-- 스테이크 미디움 -->
+  <ellipse cx="60" cy="60" rx="16" ry="10" fill="#D2691E" opacity="0.6"/>
+  <ellipse cx="60" cy="60" rx="12" ry="7" fill="#E08855" opacity="0.4"/>
+  
+  <!-- 허브 가니쉬 -->
+  <circle cx="72" cy="62" r="2" fill="#7FA958"/>
+  <path d="M71 61L72 59L73 61" stroke="#5A7A3D" stroke-width="1" fill="none"/>
+  <circle cx="75" cy="64" r="1.5" fill="#7FA958"/>
+  <path d="M74 63L75 62L76 63" stroke="#5A7A3D" stroke-width="0.8" fill="none"/>
+  
+  <!-- 포크 (왼쪽) -->
+  <rect x="27" y="30" width="3" height="40" rx="1.5" fill="#C0C0C0"/>
+  <rect x="27.5" y="30" width="2" height="40" rx="1" fill="url(#fork-gradient)"/>
+  
+  <!-- 포크 갈래 -->
+  <rect x="24" y="25" width="2" height="12" rx="1" fill="#C0C0C0"/>
+  <rect x="28" y="25" width="2" height="12" rx="1" fill="#C0C0C0"/>
+  <rect x="32" y="25" width="2" height="12" rx="1" fill="#C0C0C0"/>
+  <rect x="24.5" y="25" width="1" height="12" rx="0.5" fill="#E0E0E0"/>
+  <rect x="28.5" y="25" width="1" height="12" rx="0.5" fill="#E0E0E0"/>
+  <rect x="32.5" y="25" width="1" height="12" rx="0.5" fill="#E0E0E0"/>
+  
+  <!-- 나이프 (오른쪽) -->
+  <rect x="90" y="30" width="3" height="42" rx="1.5" fill="#C0C0C0"/>
+  <rect x="90.5" y="30" width="2" height="42" rx="1" fill="url(#knife-gradient)"/>
+  
+  <!-- 나이프 날 -->
+  <path d="M88 25L95 25L95 32L88 35Z" fill="#D0D0D0"/>
+  <path d="M88 25L95 25L95 32L88 35Z" fill="url(#blade-gradient)"/>
+  <line x1="91.5" y1="26" x2="91.5" y2="34" stroke="#F0F0F0" stroke-width="0.5"/>
+  
+  <defs>
+    <linearGradient id="plate-gradient" x1="60" y1="68" x2="60" y2="88">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </linearGradient>
+    <radialGradient id="steak-gradient" cx="60" cy="60">
+      <stop offset="0%" stop-color="#A0522D"/>
+      <stop offset="60%" stop-color="#8B4513"/>
+      <stop offset="100%" stop-color="#6B3410"/>
+    </radialGradient>
+    <linearGradient id="fork-gradient" x1="28.5" y1="30" x2="28.5" y2="70">
+      <stop offset="0%" stop-color="#E8E8E8"/>
+      <stop offset="50%" stop-color="#B0B0B0"/>
+      <stop offset="100%" stop-color="#D0D0D0"/>
+    </linearGradient>
+    <linearGradient id="knife-gradient" x1="91.5" y1="30" x2="91.5" y2="72">
+      <stop offset="0%" stop-color="#E8E8E8"/>
+      <stop offset="50%" stop-color="#B0B0B0"/>
+      <stop offset="100%" stop-color="#D0D0D0"/>
+    </linearGradient>
+    <linearGradient id="blade-gradient" x1="88" y1="30" x2="95" y2="30">
+      <stop offset="0%" stop-color="#B0B0B0"/>
+      <stop offset="50%" stop-color="#E8E8E8"/>
+      <stop offset="100%" stop-color="#B0B0B0"/>
+    </linearGradient>
+  </defs>
+</svg>

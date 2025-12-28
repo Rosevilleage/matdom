@@ -1,0 +1,66 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 그림자 -->
+  <ellipse cx="60" cy="90" rx="30" ry="6" fill="#000000" opacity="0.25"/>
+  
+  <!-- 치킨 다리뼈 (왼쪽) -->
+  <rect x="45" y="70" width="4" height="18" rx="2" fill="#F5E6D3"/>
+  <ellipse cx="47" cy="88" rx="3" ry="4" fill="#E8D5BC"/>
+  <circle cx="47" cy="88" r="2" fill="#F5E6D3"/>
+  
+  <!-- 치킨 다리뼈 (오른쪽) -->
+  <rect x="71" y="70" width="4" height="18" rx="2" fill="#F5E6D3"/>
+  <ellipse cx="73" cy="88" rx="3" ry="4" fill="#E8D5BC"/>
+  <circle cx="73" cy="88" r="2" fill="#F5E6D3"/>
+  
+  <!-- 치킨 몸통 -->
+  <ellipse cx="60" cy="55" rx="26" ry="22" fill="#E8A75A"/>
+  <ellipse cx="60" cy="55" rx="26" ry="22" fill="url(#chicken-gradient)"/>
+  
+  <!-- 바삭한 겉면 질감 -->
+  <path d="M40 50C40 50 45 45 60 45C75 45 80 50 80 50" stroke="#D4864A" stroke-width="2" opacity="0.7" stroke-linecap="round"/>
+  <path d="M38 55C38 55 44 52 60 52C76 52 82 55 82 55" stroke="#D4864A" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+  <path d="M40 60C40 60 46 58 60 58C74 58 80 60 80 60" stroke="#D4864A" stroke-width="2" opacity="0.7" stroke-linecap="round"/>
+  <path d="M42 65C42 65 48 63 60 63C72 63 78 65 78 65" stroke="#D4864A" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+  
+  <!-- 튀김 버블/텍스처 -->
+  <circle cx="50" cy="48" r="2" fill="#F5C78E" opacity="0.8"/>
+  <circle cx="58" cy="50" r="1.5" fill="#F5C78E" opacity="0.8"/>
+  <circle cx="70" cy="49" r="2" fill="#F5C78E" opacity="0.8"/>
+  <circle cx="65" cy="57" r="1.5" fill="#F5C78E" opacity="0.7"/>
+  <circle cx="54" cy="62" r="1.5" fill="#F5C78E" opacity="0.7"/>
+  <circle cx="48" cy="58" r="1.8" fill="#F5C78E" opacity="0.7"/>
+  <circle cx="72" cy="60" r="1.5" fill="#F5C78E" opacity="0.7"/>
+  
+  <!-- 날개 (왼쪽) -->
+  <ellipse cx="38" cy="52" rx="6" ry="10" fill="#E8A75A" transform="rotate(-30 38 52)"/>
+  <ellipse cx="38" cy="52" rx="6" ry="10" fill="url(#wing-gradient)" transform="rotate(-30 38 52)"/>
+  <path d="M36 48C36 48 34 50 34 54" stroke="#D4864A" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+  
+  <!-- 날개 (오른쪽) -->
+  <ellipse cx="82" cy="52" rx="6" ry="10" fill="#E8A75A" transform="rotate(30 82 52)"/>
+  <ellipse cx="82" cy="52" rx="6" ry="10" fill="url(#wing-gradient)" transform="rotate(30 82 52)"/>
+  <path d="M84 48C84 48 86 50 86 54" stroke="#D4864A" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+  
+  <!-- 양념 치킨 소스 글레이즈 -->
+  <ellipse cx="60" cy="52" rx="20" ry="14" fill="#B84A3D" opacity="0.3"/>
+  <path d="M45 50C45 50 50 48 60 48C70 48 75 50 75 50" stroke="#B84A3D" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+  
+  <!-- 참깨 토핑 -->
+  <ellipse cx="52" cy="54" rx="1" ry="1.5" fill="#F5E6D3" opacity="0.9"/>
+  <ellipse cx="58" cy="56" rx="1" ry="1.5" fill="#F5E6D3" opacity="0.9"/>
+  <ellipse cx="65" cy="53" rx="1" ry="1.5" fill="#F5E6D3" opacity="0.9"/>
+  <ellipse cx="70" cy="56" rx="1" ry="1.5" fill="#F5E6D3" opacity="0.9"/>
+  <ellipse cx="55" cy="60" rx="1" ry="1.5" fill="#F5E6D3" opacity="0.8"/>
+  
+  <defs>
+    <radialGradient id="chicken-gradient" cx="60" cy="50">
+      <stop offset="0%" stop-color="#F5C78E"/>
+      <stop offset="60%" stop-color="#E8A75A"/>
+      <stop offset="100%" stop-color="#D4864A"/>
+    </radialGradient>
+    <linearGradient id="wing-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5C78E"/>
+      <stop offset="100%" stop-color="#D4864A"/>
+    </linearGradient>
+  </defs>
+</svg>

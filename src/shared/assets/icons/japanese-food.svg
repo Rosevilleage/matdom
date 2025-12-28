@@ -1,0 +1,63 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 그림자 -->
+  <ellipse cx="60" cy="88" rx="32" ry="6" fill="#000000" opacity="0.2"/>
+  
+  <!-- 초밥 밥 -->
+  <ellipse cx="60" cy="65" rx="28" ry="18" fill="#FFFFFF"/>
+  <ellipse cx="60" cy="65" rx="28" ry="18" fill="url(#rice-gradient)"/>
+  <path d="M32 65C32 65 35 58 60 58C85 58 88 65 88 65" stroke="#F5F0E8" stroke-width="2" opacity="0.7"/>
+  
+  <!-- 밥 알갱이 텍스처 -->
+  <circle cx="50" cy="62" r="1.5" fill="#FFF9F0" opacity="0.8"/>
+  <circle cx="55" cy="65" r="1.5" fill="#FFF9F0" opacity="0.8"/>
+  <circle cx="60" cy="63" r="1.5" fill="#FFF9F0" opacity="0.8"/>
+  <circle cx="65" cy="66" r="1.5" fill="#FFF9F0" opacity="0.8"/>
+  <circle cx="70" cy="64" r="1.5" fill="#FFF9F0" opacity="0.8"/>
+  <circle cx="48" cy="67" r="1" fill="#FFF9F0" opacity="0.7"/>
+  <circle cx="72" cy="68" r="1" fill="#FFF9F0" opacity="0.7"/>
+  
+  <!-- 연어 회 -->
+  <ellipse cx="60" cy="48" rx="26" ry="10" fill="#FF9999"/>
+  <ellipse cx="60" cy="48" rx="26" ry="10" fill="url(#salmon-gradient)"/>
+  <path d="M35 48C35 48 42 44 60 44C78 44 85 48 85 48" stroke="#FF6B6B" stroke-width="1.5" opacity="0.6"/>
+  <path d="M40 49C40 49 46 47 60 47C74 47 80 49 80 49" stroke="#FFB8B8" stroke-width="1" opacity="0.5"/>
+  
+  <!-- 연어 지방층 -->
+  <path d="M38 48L42 48" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+  <path d="M50 46L54 46" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+  <path d="M66 46L70 46" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+  <path d="M78 48L82 48" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+  
+  <!-- 김 (nori) 띠 -->
+  <path d="M52 52L52 62C52 64 54 65 56 65L64 65C66 65 68 64 68 62L68 52" fill="#1A3B2F" opacity="0.9"/>
+  <path d="M52 52L68 52" stroke="#0F2218" stroke-width="1"/>
+  <rect x="53" y="53" width="14" height="1" fill="#2D5542" opacity="0.5"/>
+  <rect x="53" y="56" width="14" height="0.5" fill="#2D5542" opacity="0.3"/>
+  <rect x="53" y="59" width="14" height="0.5" fill="#2D5542" opacity="0.3"/>
+  
+  <!-- 와사비 -->
+  <ellipse cx="75" cy="72" rx="4" ry="3" fill="#B8D96D"/>
+  <ellipse cx="75" cy="72" rx="3" ry="2" fill="#C8E87D"/>
+  <path d="M74 71L76 71" stroke="#A0C85A" stroke-width="0.5"/>
+  
+  <!-- 생강 -->
+  <path d="M42 70C42 70 44 68 46 70C48 72 46 74 44 74C42 74 40 72 42 70Z" fill="#FFD9D9"/>
+  <path d="M42 70C42 70 44 68 46 70" stroke="#FFAAAA" stroke-width="0.5" fill="none"/>
+  
+  <!-- 간장 그릇 -->
+  <ellipse cx="78" cy="78" rx="8" ry="3" fill="#4A2511"/>
+  <path d="M70 78L70 80C70 81 73 82 78 82C83 82 86 81 86 80L86 78" fill="#3D1F0E"/>
+  
+  <defs>
+    <linearGradient id="rice-gradient" x1="60" y1="47" x2="60" y2="83">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FFF9F0"/>
+      <stop offset="100%" stop-color="#F5EBD8"/>
+    </linearGradient>
+    <radialGradient id="salmon-gradient" cx="60" cy="48">
+      <stop offset="0%" stop-color="#FFB8B8"/>
+      <stop offset="50%" stop-color="#FF9999"/>
+      <stop offset="100%" stop-color="#FF7A7A"/>
+    </radialGradient>
+  </defs>
+</svg>

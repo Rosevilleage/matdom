@@ -1,0 +1,112 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 그림자 -->
+  <ellipse cx="60" cy="88" rx="32" ry="5" fill="#000000" opacity="0.2"/>
+  
+  <!-- 떡볶이 컵 -->
+  <path d="M35 50L32 78C32 82 40 86 60 86C80 86 88 82 88 78L85 50H35Z" fill="#FFFFFF"/>
+  <path d="M35 50L32 78C32 82 40 86 60 86C80 86 88 82 88 78L85 50H35Z" fill="url(#cup-gradient)"/>
+  <ellipse cx="60" cy="50" rx="25" ry="6" fill="#F5F5F5"/>
+  <path d="M35 50C35 50 40 46 60 46C80 46 85 50 85 50" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- 컵 로고/디자인 -->
+  <rect x="50" y="65" width="20" height="3" rx="1.5" fill="#FF6B6B" opacity="0.3"/>
+  
+  <!-- 떡볶이 소스 -->
+  <ellipse cx="60" cy="52" rx="23" ry="5" fill="#D84A3D" opacity="0.8"/>
+  <path d="M37 52C37 52 42 50 60 50C78 50 83 52 83 52" stroke="#C73A2E" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 떡 (왼쪽에서 오른쪽으로) -->
+  <!-- 떡 1 -->
+  <rect x="40" y="56" width="7" height="18" rx="3.5" fill="#FFF5E6"/>
+  <rect x="40" y="56" width="7" height="18" rx="3.5" fill="url(#tteok-gradient1)"/>
+  <rect x="41" y="58" width="5" height="2" rx="1" fill="#FFFFFF" opacity="0.4"/>
+  <path d="M43.5 60L43.5 72" stroke="#D84A3D" stroke-width="1" opacity="0.6"/>
+  
+  <!-- 떡 2 -->
+  <rect x="50" y="54" width="7" height="20" rx="3.5" fill="#FFF5E6"/>
+  <rect x="50" y="54" width="7" height="20" rx="3.5" fill="url(#tteok-gradient2)"/>
+  <rect x="51" y="56" width="5" height="2" rx="1" fill="#FFFFFF" opacity="0.4"/>
+  <path d="M53.5 58L53.5 72" stroke="#D84A3D" stroke-width="1" opacity="0.6"/>
+  
+  <!-- 떡 3 -->
+  <rect x="60" y="55" width="7" height="19" rx="3.5" fill="#FFF5E6"/>
+  <rect x="60" y="55" width="7" height="19" rx="3.5" fill="url(#tteok-gradient3)"/>
+  <rect x="61" y="57" width="5" height="2" rx="1" fill="#FFFFFF" opacity="0.4"/>
+  <path d="M63.5 59L63.5 72" stroke="#D84A3D" stroke-width="1" opacity="0.6"/>
+  
+  <!-- 떡 4 -->
+  <rect x="70" y="57" width="7" height="17" rx="3.5" fill="#FFF5E6"/>
+  <rect x="70" y="57" width="7" height="17" rx="3.5" fill="url(#tteok-gradient4)"/>
+  <rect x="71" y="59" width="5" height="2" rx="1" fill="#FFFFFF" opacity="0.4"/>
+  <path d="M73.5 61L73.5 72" stroke="#D84A3D" stroke-width="1" opacity="0.6"/>
+  
+  <!-- 어묵 -->
+  <ellipse cx="48" cy="60" rx="4" ry="6" fill="#F5DBA3" transform="rotate(15 48 60)"/>
+  <ellipse cx="48" cy="60" rx="4" ry="6" fill="url(#fish-cake-gradient)" transform="rotate(15 48 60)"/>
+  
+  <!-- 파 고명 -->
+  <rect x="56" y="53" width="2" height="4" rx="1" fill="#7CB958" opacity="0.8"/>
+  <rect x="66" y="54" width="2" height="3" rx="1" fill="#7CB958" opacity="0.8"/>
+  <rect x="44" y="55" width="2" height="3" rx="1" fill="#7CB958" opacity="0.7"/>
+  <rect x="72" y="56" width="1.5" height="3" rx="0.75" fill="#7CB958" opacity="0.7"/>
+  
+  <!-- 참깨 -->
+  <ellipse cx="52" cy="52" rx="0.8" ry="1.2" fill="#F5E6D3" opacity="0.9"/>
+  <ellipse cx="62" cy="53" rx="0.8" ry="1.2" fill="#F5E6D3" opacity="0.9"/>
+  <ellipse cx="68" cy="54" rx="0.8" ry="1.2" fill="#F5E6D3" opacity="0.9"/>
+  <ellipse cx="58" cy="52" rx="0.8" ry="1.2" fill="#F5E6D3" opacity="0.8"/>
+  
+  <!-- 김말이 튀김 -->
+  <rect x="78" y="58" width="6" height="14" rx="3" fill="#6BA159"/>
+  <rect x="78" y="58" width="6" height="14" rx="3" fill="url(#gimmari-gradient)"/>
+  <rect x="79" y="60" width="4" height="1" rx="0.5" fill="#5A8A48" opacity="0.6"/>
+  <rect x="79" y="64" width="4" height="0.5" rx="0.25" fill="#5A8A48" opacity="0.4"/>
+  <rect x="79" y="68" width="4" height="0.5" rx="0.25" fill="#5A8A48" opacity="0.4"/>
+  
+  <!-- 꼬챙이 -->
+  <rect x="42.5" y="40" width="2.5" height="20" rx="1.25" fill="#D4A574"/>
+  <rect x="52.5" y="38" width="2.5" height="20" rx="1.25" fill="#D4A574"/>
+  <rect x="62.5" y="39" width="2.5" height="20" rx="1.25" fill="#D4A574"/>
+  <rect x="72.5" y="41" width="2.5" height="20" rx="1.25" fill="#D4A574"/>
+  
+  <!-- 꼬챙이 손잡이 -->
+  <circle cx="43.75" cy="40" r="3" fill="#E8C896"/>
+  <circle cx="53.75" cy="38" r="3" fill="#E8C896"/>
+  <circle cx="63.75" cy="39" r="3" fill="#E8C896"/>
+  <circle cx="73.75" cy="41" r="3" fill="#E8C896"/>
+  
+  <defs>
+    <linearGradient id="cup-gradient" x1="60" y1="50" x2="60" y2="86">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#E0E0E0" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="tteok-gradient1" x1="43.5" y1="56" x2="43.5" y2="74">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FFF5E6"/>
+      <stop offset="100%" stop-color="#FFE8CC"/>
+    </linearGradient>
+    <linearGradient id="tteok-gradient2" x1="53.5" y1="54" x2="53.5" y2="74">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FFF5E6"/>
+      <stop offset="100%" stop-color="#FFE8CC"/>
+    </linearGradient>
+    <linearGradient id="tteok-gradient3" x1="63.5" y1="55" x2="63.5" y2="74">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FFF5E6"/>
+      <stop offset="100%" stop-color="#FFE8CC"/>
+    </linearGradient>
+    <linearGradient id="tteok-gradient4" x1="73.5" y1="57" x2="73.5" y2="74">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FFF5E6"/>
+      <stop offset="100%" stop-color="#FFE8CC"/>
+    </linearGradient>
+    <linearGradient id="fish-cake-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5E6C8"/>
+      <stop offset="100%" stop-color="#E8C896"/>
+    </linearGradient>
+    <linearGradient id="gimmari-gradient" x1="81" y1="58" x2="81" y2="72">
+      <stop offset="0%" stop-color="#7CB958"/>
+      <stop offset="100%" stop-color="#5A8A48"/>
+    </linearGradient>
+  </defs>
+</svg>

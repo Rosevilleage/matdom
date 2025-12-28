@@ -1,0 +1,103 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 그림자 -->
+  <ellipse cx="60" cy="88" rx="32" ry="5" fill="#000000" opacity="0.25"/>
+  
+  <!-- 타코 쉘 (뒷면) -->
+  <path d="M32 78C32 78 35 48 40 38C45 28 50 26 60 26C70 26 75 28 80 38C85 48 88 78 88 78" 
+        stroke="#E8C896" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M32 78C32 78 35 48 40 38C45 28 50 26 60 26C70 26 75 28 80 38C85 48 88 78 88 78" 
+        stroke="#D4A574" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- 타코 쉘 (앞면 왼쪽) -->
+  <path d="M32 78L38 42C38 42 42 32 50 30L50 80L32 78Z" fill="#F5DBA3"/>
+  <path d="M32 78L38 42C38 42 42 32 50 30L50 80L32 78Z" fill="url(#shell-left-gradient)"/>
+  
+  <!-- 타코 쉘 (앞면 오른쪽) -->
+  <path d="M88 78L82 42C82 42 78 32 70 30L70 80L88 78Z" fill="#F5DBA3"/>
+  <path d="M88 78L82 42C82 42 78 32 70 30L70 80L88 78Z" fill="url(#shell-right-gradient)"/>
+  
+  <!-- 쉘 텍스처 (왼쪽) -->
+  <path d="M35 72C35 72 38 56 40 46" stroke="#E8C896" stroke-width="1" opacity="0.5"/>
+  <path d="M40 74C40 74 42 60 44 48" stroke="#E8C896" stroke-width="1" opacity="0.5"/>
+  <path d="M45 76C45 76 46 64 47 52" stroke="#E8C896" stroke-width="1" opacity="0.5"/>
+  
+  <!-- 쉘 텍스처 (오른쪽) -->
+  <path d="M85 72C85 72 82 56 80 46" stroke="#E8C896" stroke-width="1" opacity="0.5"/>
+  <path d="M80 74C80 74 78 60 76 48" stroke="#E8C896" stroke-width="1" opacity="0.5"/>
+  <path d="M75 76C75 76 74 64 73 52" stroke="#E8C896" stroke-width="1" opacity="0.5"/>
+  
+  <!-- 다진 소고기 -->
+  <ellipse cx="60" cy="52" rx="14" ry="6" fill="#8B4513"/>
+  <ellipse cx="60" cy="52" rx="14" ry="6" fill="url(#beef-gradient)"/>
+  <circle cx="54" cy="51" r="1.5" fill="#6B3410" opacity="0.7"/>
+  <circle cx="60" cy="50" r="1.5" fill="#6B3410" opacity="0.7"/>
+  <circle cx="66" cy="51" r="1.5" fill="#6B3410" opacity="0.7"/>
+  <circle cx="57" cy="53" r="1.2" fill="#6B3410" opacity="0.6"/>
+  <circle cx="63" cy="53" r="1.2" fill="#6B3410" opacity="0.6"/>
+  
+  <!-- 양상추 -->
+  <path d="M48 58L50 56L52 58L54 55L56 58L58 56L60 58L62 56L64 58L66 55L68 58L70 56L72 58" 
+        stroke="#7CB958" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 58L50 56L52 58L54 55L56 58L58 56L60 58L62 56L64 58L66 55L68 58L70 56L72 58" 
+        stroke="#A0D97C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- 토마토 -->
+  <circle cx="52" cy="62" r="3" fill="#E74C3C"/>
+  <circle cx="52" cy="62" r="3" fill="url(#tomato-gradient)"/>
+  <circle cx="68" cy="63" r="3" fill="#E74C3C"/>
+  <circle cx="68" cy="63" r="3" fill="url(#tomato-gradient)"/>
+  <circle cx="60" cy="64" r="2.5" fill="#E74C3C"/>
+  <circle cx="60" cy="64" r="2.5" fill="url(#tomato-gradient)"/>
+  
+  <!-- 체다 치즈 -->
+  <path d="M50 68C50 68 54 66 60 66C66 66 70 68 70 68L68 70L52 70Z" fill="#FFD54F"/>
+  <path d="M50 68C50 68 54 66 60 66C66 66 70 68 70 68L68 70L52 70Z" fill="url(#cheddar-gradient)"/>
+  <circle cx="56" cy="68" r="1" fill="#FFE57F" opacity="0.6"/>
+  <circle cx="64" cy="68" r="1.2" fill="#FFE57F" opacity="0.6"/>
+  <circle cx="60" cy="67" r="0.8" fill="#FFE57F" opacity="0.5"/>
+  
+  <!-- 사워크림 -->
+  <ellipse cx="60" cy="72" rx="8" ry="3" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="60" cy="72" rx="7" ry="2.5" fill="#FFFEF5" opacity="0.7"/>
+  
+  <!-- 양파 -->
+  <rect x="54" y="60" width="2" height="3" rx="1" fill="#F8E8F5" opacity="0.7"/>
+  <rect x="64" y="61" width="2" height="3" rx="1" fill="#F8E8F5" opacity="0.7"/>
+  <rect x="58" y="62" width="1.5" height="2.5" rx="0.75" fill="#F8E8F5" opacity="0.6"/>
+  
+  <!-- 고수 -->
+  <path d="M56 74C56 74 57 72 58 74" stroke="#7CB958" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M64 74C64 74 65 72 66 74" stroke="#7CB958" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- 할라피뇨 -->
+  <ellipse cx="50" cy="66" rx="2" ry="3" fill="#90C878" transform="rotate(-20 50 66)"/>
+  <ellipse cx="70" cy="67" rx="2" ry="3" fill="#90C878" transform="rotate(25 70 67)"/>
+  <path d="M49 65L50 63" stroke="#6B9B5A" stroke-width="1" stroke-linecap="round"/>
+  <path d="M71 66L72 64" stroke="#6B9B5A" stroke-width="1" stroke-linecap="round"/>
+  
+  <defs>
+    <linearGradient id="shell-left-gradient" x1="32" y1="30" x2="50" y2="80">
+      <stop offset="0%" stop-color="#FFF5E6"/>
+      <stop offset="50%" stop-color="#F5DBA3"/>
+      <stop offset="100%" stop-color="#D4A574"/>
+    </linearGradient>
+    <linearGradient id="shell-right-gradient" x1="88" y1="30" x2="70" y2="80">
+      <stop offset="0%" stop-color="#FFF5E6"/>
+      <stop offset="50%" stop-color="#F5DBA3"/>
+      <stop offset="100%" stop-color="#D4A574"/>
+    </linearGradient>
+    <radialGradient id="beef-gradient" cx="60" cy="50">
+      <stop offset="0%" stop-color="#A0522D"/>
+      <stop offset="70%" stop-color="#8B4513"/>
+      <stop offset="100%" stop-color="#6B3410"/>
+    </radialGradient>
+    <radialGradient id="tomato-gradient" cx="50%" cy="30%">
+      <stop offset="0%" stop-color="#FF6B5B"/>
+      <stop offset="100%" stop-color="#E74C3C"/>
+    </radialGradient>
+    <linearGradient id="cheddar-gradient" x1="60" y1="66" x2="60" y2="70">
+      <stop offset="0%" stop-color="#FFE57F"/>
+      <stop offset="100%" stop-color="#FFC107"/>
+    </linearGradient>
+  </defs>
+</svg>

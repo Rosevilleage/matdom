@@ -1,0 +1,280 @@
+import React, { useState } from "react";
+import { SearchBar } from "@/features/search-restaurant";
+import { CategoryChips } from "@/features/select-category";
+import { MapView } from "@/shared/ui/map-view";
+import { RestaurantCard } from "@/entities/restaurant";
+import type { Restaurant } from "@/entities/restaurant";
+import { motion } from "framer-motion";
+import {
+  IconChevronUp,
+  IconMapPinOff,
+  IconSettings,
+  IconX,
+  IconChevronLeft,
+} from "@tabler/icons-react";
+import { Button } from "@/shared/ui/kit/button";
+
+interface MapScreenProps {
+  categories: string[];
+  restaurants: Restaurant[];
+  initialCategory?: string | null;
+  searchedFood?: string | null;
+  onRestaurantClick: (restaurant: Restaurant) => void;
+  hasLocationPermission?: boolean;
+  onRequestPermission?: () => void;
+  onClearSearch?: () => void;
+  onBackToHome?: () => void;
+}
+
+export function MapScreen({
+  categories,
+  restaurants,
+  initialCategory = null,
+  searchedFood = null,
+  onRestaurantClick,
+  hasLocationPermission = true,
+  onRequestPermission,
+  onClearSearch,
+  onBackToHome,
+}: MapScreenProps) {
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(
+    initialCategory
+  );
+  const [selectedRestaurant, setSelectedRestaurant] = useState<string | null>(
+    null
+  );
+  const [sheetHeight, setSheetHeight] = useState<"collapsed" | "half" | "full">(
+    "half"
+  );
+
+  // 카테고리별로 최고 평점 식당만 필터링
+  const getTopRatedByCategory = (restaurantList: Restaurant[]) => {
+    const categoryMap = new Map<string, Restaurant>();
+
+    // 평점 순으로 정렬
+    const sorted = [...restaurantList].sort((a, b) => b.rating - a.rating);
+
+    // 각 카테고리별로 최고 평점 식당만 선택
+    sorted.forEach((restaurant) => {
+      if (!categoryMap.has(restaurant.category)) {
+        categoryMap.set(restaurant.category, restaurant);
+      }
+    });
+
+    return Array.from(categoryMap.values()).sort((a, b) => b.rating - a.rating);
+  };
+
+  // 검색된 음식을 파는 식당 필터링
+  let filteredRestaurants = restaurants;
+
+  if (searchedFood) {
+    // 검색된 음식을 메뉴에 포함하는 식당들
+    filteredRestaurants = restaurants.filter((r) =>
+      r.menuItems?.some((item) => item.includes(searchedFood))
+    );
+    // 평점 순으로 정렬
+    filteredRestaurants = [...filteredRestaurants].sort(
+      (a, b) => b.rating - a.rating
+    );
+  } else if (selectedCategory) {
+    // 카테고리로 필터링
+    filteredRestaurants = restaurants.filter(
+      (r) => r.category === selectedCategory
+    );
+  } else {
+    // 카테고리별 최고 평점 식당만
+    filteredRestaurants = getTopRatedByCategory(restaurants);
+  }
+
+  const mockMapRestaurants = React.useMemo(() => {
+    // 각 레스토랑에 고정된 위치 할당 (ID 기반 해시)
+    return filteredRestaurants.slice(0, 8).map((r) => {
+      const hash = r.id
+        .split("")
+        .reduce((acc, char) => acc + char.charCodeAt(0), 0);
+      return {
+        ...r,
+        lat: 20 + ((hash * 37) % 60),
+        lng: 20 + ((hash * 73) % 60),
+      };
+    });
+  }, [filteredRestaurants]);
+
+  const handlePinClick = (restaurant: {
+    id: string;
+    name: string;
+    lat: number;
+    lng: number;
+  }) => {
+    setSelectedRestaurant(restaurant.id);
+    setSheetHeight("half");
+  };
+
+  const sheetHeights = {
+    collapsed: "120px",
+    half: "45%",
+    full: "85%",
+  };
+
+  if (!hasLocationPermission) {
+    return (
+      <div className="flex flex-col h-full p-6 pb-24">
+        <div className="flex-1 flex items-center justify-center">
+          <div className="text-center space-y-4 max-w-sm">
+            <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mx-auto">
+              <IconMapPinOff className="w-8 h-8 text-muted-foreground" />
+            </div>
+            <h3>위치 권한이 필요해요</h3>
+            <p className="text-muted-foreground">
+              내 주변 음식점을 찾기 위해 위치 권한이 필요합니다.
+            </p>
+            <Button
+              onClick={onRequestPermission}
+              className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl h-11"
+            >
+              <IconSettings className="w-4 h-4 mr-2" />
+              권한 설정
+            </Button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="relative flex flex-col h-full">
+      {/* Back Button */}
+      {onBackToHome && (
+        <button
+          onClick={onBackToHome}
+          className="absolute top-4 left-4 z-30 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg hover:bg-white transition-colors"
+        >
+          <IconChevronLeft className="w-5 h-5 text-foreground" />
+        </button>
+      )}
+
+      {/* Search Bar */}
+      <div className="absolute top-0 left-0 right-0 z-20 p-4 space-y-3">
+        <SearchBar onFilterClick={() => {}} />
+
+        {/* 검색된 음식 표시 */}
+        {searchedFood && (
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-xl px-4 py-2"
+          >
+            <span className="text-sm flex-1">
+              <span className="text-primary">'{searchedFood}'</span>을(를) 파는
+              식당
+            </span>
+            {onClearSearch && (
+              <button
+                onClick={onClearSearch}
+                className="p-1 hover:bg-primary/20 rounded-lg transition-colors"
+              >
+                <IconX className="w-4 h-4 text-primary" />
+              </button>
+            )}
+          </motion.div>
+        )}
+
+        {!searchedFood && (
+          <CategoryChips
+            categories={categories}
+            selected={selectedCategory}
+            onSelect={(cat) =>
+              setSelectedCategory(cat === selectedCategory ? null : cat)
+            }
+          />
+        )}
+      </div>
+
+      {/* Map */}
+      <div className="flex-1 pt-32">
+        <MapView
+          restaurants={mockMapRestaurants}
+          onPinClick={handlePinClick}
+          selectedId={selectedRestaurant ?? undefined}
+        />
+      </div>
+
+      {/* Bottom Sheet */}
+      <motion.div
+        drag="y"
+        dragConstraints={{ top: 0, bottom: 0 }}
+        dragElastic={0.1}
+        onDragEnd={(_, info) => {
+          if (info.offset.y > 100) {
+            setSheetHeight("collapsed");
+          } else if (info.offset.y < -100) {
+            setSheetHeight(sheetHeight === "half" ? "full" : "half");
+          }
+        }}
+        animate={{ height: sheetHeights[sheetHeight] }}
+        className="absolute bottom-0 left-0 right-0 bg-background rounded-t-[24px] shadow-2xl z-30 overflow-hidden"
+        style={{
+          boxShadow: "0 -4px 12px rgba(0, 0, 0, 0.1)",
+          marginBottom: "17px",
+        }}
+      >
+        {/* Grab Handle */}
+        <div className="flex justify-center py-3 cursor-grab active:cursor-grabbing">
+          <div className="w-12 h-1.5 bg-muted-foreground/30 rounded-full" />
+        </div>
+
+        {/* Sheet Content */}
+        <div className="px-4 pb-20 overflow-y-auto h-full">
+          <div className="flex items-center justify-between mb-4">
+            <h3>
+              {searchedFood
+                ? `'${searchedFood}' 파는 곳`
+                : selectedCategory
+                ? `${selectedCategory} 음식점`
+                : "추천 음식점"}
+              <span className="text-muted-foreground ml-2">
+                ({filteredRestaurants.length})
+              </span>
+            </h3>
+            <button
+              onClick={() =>
+                setSheetHeight(sheetHeight === "full" ? "half" : "full")
+              }
+              className="p-2 hover:bg-muted rounded-lg transition-colors"
+            >
+              <IconChevronUp
+                className={`w-5 h-5 text-muted-foreground transition-transform ${
+                  sheetHeight === "full" ? "rotate-180" : ""
+                }`}
+              />
+            </button>
+          </div>
+
+          {filteredRestaurants.length === 0 ? (
+            <div className="text-center py-12">
+              <IconMapPinOff className="w-12 h-12 text-muted-foreground mx-auto mb-3" />
+              <p className="text-muted-foreground">
+                {searchedFood
+                  ? `주변에 '${searchedFood}'을(를) 파는 식당이 없어요.`
+                  : "주변에 해당 음식점이 없어요."}
+                <br />
+                범위를 넓혀보세요.
+              </p>
+            </div>
+          ) : (
+            <div className="space-y-3">
+              {filteredRestaurants.map((restaurant) => (
+                <RestaurantCard
+                  key={restaurant.id}
+                  restaurant={restaurant}
+                  onClick={() => onRestaurantClick(restaurant)}
+                  onBookmark={() => {}}
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      </motion.div>
+    </div>
+  );
+}

@@ -1,0 +1,86 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 그림자 -->
+  <ellipse cx="60" cy="90" rx="36" ry="6" fill="#000000" opacity="0.2"/>
+  
+  <!-- 그릇 -->
+  <path d="M28 52L28 62C28 72 38 82 60 82C82 82 92 72 92 62L92 52H28Z" fill="#E8E8E8"/>
+  <path d="M28 52L28 62C28 72 38 82 60 82C82 82 92 72 92 62L92 52H28Z" fill="url(#bowl-gradient)"/>
+  <ellipse cx="60" cy="52" rx="32" ry="8" fill="#F5F5F5"/>
+  <path d="M28 52C28 52 35 48 60 48C85 48 92 52 92 52" stroke="#D0D0D0" stroke-width="2"/>
+  
+  <!-- 그릇 외부 라인 -->
+  <path d="M28 52C28 52 26 56 26 62C26 73 37 84 60 84C83 84 94 73 94 62C94 56 92 52 92 52" 
+        stroke="#C0C0C0" stroke-width="1.5" fill="none" opacity="0.6"/>
+  
+  <!-- 국물 -->
+  <ellipse cx="60" cy="52" rx="30" ry="7" fill="#F5E6D3" opacity="0.7"/>
+  <ellipse cx="60" cy="52" rx="28" ry="6" fill="#FFF8E8" opacity="0.5"/>
+  
+  <!-- 국물 기름층 -->
+  <ellipse cx="50" cy="52" rx="4" ry="2" fill="#FFD700" opacity="0.3"/>
+  <ellipse cx="68" cy="53" rx="5" ry="2.5" fill="#FFD700" opacity="0.3"/>
+  <ellipse cx="42" cy="54" rx="3" ry="1.5" fill="#FFD700" opacity="0.2"/>
+  
+  <!-- 면 (여러 층) -->
+  <path d="M32 54C32 54 38 50 45 52C52 54 56 50 60 50C64 50 68 54 75 52C82 50 88 54 88 54" 
+        stroke="#FFF5E6" stroke-width="3.5" stroke-linecap="round" opacity="0.9"/>
+  <path d="M30 56C30 56 36 54 44 56C52 58 58 54 60 54C62 54 68 58 76 56C84 54 90 56 90 56" 
+        stroke="#FFF5E6" stroke-width="3.5" stroke-linecap="round" opacity="0.9"/>
+  <path d="M32 59C32 59 40 57 48 59C56 61 60 58 64 58C68 58 72 61 80 59C88 57 88 59 88 59" 
+        stroke="#FFF5E6" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+  <path d="M34 62C34 62 42 60 50 62C58 64 62 61 66 61C70 61 74 64 82 62C86 61 86 62 86 62" 
+        stroke="#FFF5E6" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M36 65C36 65 44 63 52 65C60 67 64 64 68 64C72 64 76 67 84 65" 
+        stroke="#FFF5E6" stroke-width="2.5" stroke-linecap="round" opacity="0.75"/>
+  
+  <!-- 계란 반숙 -->
+  <ellipse cx="60" cy="46" rx="8" ry="7" fill="#FFFFFF"/>
+  <ellipse cx="60" cy="46" rx="8" ry="7" fill="url(#egg-white-gradient)"/>
+  <circle cx="60" cy="46" r="4" fill="#FFD54F"/>
+  <circle cx="60" cy="46" r="4" fill="url(#egg-yolk-gradient)"/>
+  <circle cx="59" cy="45" r="1.5" fill="#FFE57F" opacity="0.8"/>
+  
+  <!-- 대파 -->
+  <rect x="46" y="48" width="3" height="8" rx="1.5" fill="#A8D97C" transform="rotate(-15 47.5 52)"/>
+  <rect x="70" y="48" width="3" height="7" rx="1.5" fill="#A8D97C" transform="rotate(20 71.5 51.5)"/>
+  <rect x="38" y="50" width="2.5" height="6" rx="1.25" fill="#A8D97C" transform="rotate(-10 39.25 53)"/>
+  <rect x="78" y="50" width="2.5" height="6" rx="1.25" fill="#A8D97C" transform="rotate(15 79.25 53)"/>
+  
+  <!-- 대파 디테일 -->
+  <line x1="47" y1="50" x2="47" y2="54" stroke="#8BC34A" stroke-width="1" opacity="0.6"/>
+  <line x1="71" y1="50" x2="71" y2="55" stroke="#8BC34A" stroke-width="1" opacity="0.6"/>
+  
+  <!-- 숙주나물 -->
+  <path d="M42 58C42 58 44 56 46 58" stroke="#F5F5DC" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M74 58C74 58 76 56 78 58" stroke="#F5F5DC" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M50 60C50 60 52 58 54 60" stroke="#F5F5DC" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- 고기 슬라이스 -->
+  <ellipse cx="52" cy="50" rx="5" ry="3" fill="#D4A574" opacity="0.8"/>
+  <ellipse cx="68" cy="51" rx="5" ry="3" fill="#D4A574" opacity="0.8"/>
+  <path d="M50 50L54 50" stroke="#C49363" stroke-width="0.5" opacity="0.6"/>
+  <path d="M66 51L70 51" stroke="#C49363" stroke-width="0.5" opacity="0.6"/>
+  
+  <!-- 젓가락 -->
+  <rect x="76" y="30" width="2.5" height="38" rx="1.25" fill="#8B6F47" transform="rotate(18 77 49)"/>
+  <rect x="81" y="28" width="2.5" height="38" rx="1.25" fill="#8B6F47" transform="rotate(22 82 47)"/>
+  <rect x="76.5" y="30" width="1.5" height="38" rx="0.75" fill="#A68A5F" transform="rotate(18 77 49)"/>
+  <rect x="81.5" y="28" width="1.5" height="38" rx="0.75" fill="#A68A5F" transform="rotate(22 82 47)"/>
+  
+  <defs>
+    <linearGradient id="bowl-gradient" x1="60" y1="52" x2="60" y2="82">
+      <stop offset="0%" stop-color="#F5F5F5" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#D0D0D0" stop-opacity="0.7"/>
+    </linearGradient>
+    <radialGradient id="egg-white-gradient" cx="60" cy="46">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#FFFEF5"/>
+      <stop offset="100%" stop-color="#F5F5E8"/>
+    </radialGradient>
+    <radialGradient id="egg-yolk-gradient" cx="59" cy="45">
+      <stop offset="0%" stop-color="#FFE57F"/>
+      <stop offset="60%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FFC107"/>
+    </radialGradient>
+  </defs>
+</svg>
