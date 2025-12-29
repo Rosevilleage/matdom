@@ -4,6 +4,7 @@ import { HomeScreen } from "@/pages/home";
 import { MapScreen } from "@/pages/map";
 import { RestaurantDetail } from "@/widgets/restaurant-detail";
 import { Toast } from "@/shared/ui/toast";
+import { PatternBackground } from "@/shared/ui/pattern-background";
 import type { Restaurant } from "@/entities/restaurant";
 
 // 한국에서 파는 다양한 음식 종류
@@ -416,9 +417,12 @@ function App() {
   };
 
   return (
-    <div className="relative w-full h-screen bg-background overflow-hidden">
+    <div className="relative w-full h-screen bg-pastel overflow-hidden">
+      {/* Pattern Background for Desktop */}
+      <PatternBackground />
+      
       {/* iPhone Frame */}
-      <div className="mx-auto h-full max-w-[390px] bg-background relative">
+      <div className="mx-auto h-full max-w-[390px] bg-background relative z-10">
         {/* Main Content */}
         <div className="h-full">
           {currentScreen === "home" && (
