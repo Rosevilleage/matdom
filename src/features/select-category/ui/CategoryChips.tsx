@@ -31,7 +31,7 @@ export function CategoryChips({
             onClick={() => onSelect(category)}
             whileTap={{ scale: 0.95 }}
             className={cn(
-              "px-4 py-2 rounded-full whitespace-nowrap transition-all text-sm",
+              "px-4 py-2 rounded-full whitespace-nowrap transition-all text-sm cursor-pointer",
               isSelected
                 ? "bg-primary text-primary-foreground shadow-md"
                 : "bg-secondary text-secondary-foreground hover:bg-secondary/80"

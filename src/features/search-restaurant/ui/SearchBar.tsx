@@ -33,7 +33,7 @@ export function SearchBar({
           <button
             type="button"
             onClick={onFilterClick}
-            className="absolute right-3 p-2 hover:bg-muted rounded-lg transition-colors"
+            className="absolute right-3 p-2 hover:bg-muted rounded-lg transition-colors cursor-pointer"
           >
             <IconSearch className="w-5 h-5 text-muted-foreground" />
           </button>

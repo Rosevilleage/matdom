@@ -20,7 +20,7 @@ export function RestaurantDetail({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-end"
+      className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-end cursor-pointer"
       onClick={onClose}
     >
       <motion.div
@@ -35,7 +35,7 @@ export function RestaurantDetail({
         <div className="relative">
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 z-10 w-10 h-10 bg-background/80 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg hover:bg-background transition-colors"
+            className="absolute top-4 right-4 z-10 w-10 h-10 bg-background/80 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg hover:bg-background transition-colors cursor-pointer"
           >
             <IconX className="w-5 h-5" />
           </button>

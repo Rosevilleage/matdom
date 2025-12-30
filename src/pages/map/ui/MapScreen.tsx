@@ -179,7 +179,7 @@ export function MapScreen({
       {/* Back Button */}
       <button
         onClick={handleBackToHome}
-        className="absolute top-5 left-2 z-30 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg hover:bg-white transition-colors"
+        className="absolute top-5 left-2 z-30 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg hover:bg-white transition-colors cursor-pointer"
       >
         <IconChevronLeft className="w-5 h-5 text-foreground" />
       </button>
@@ -201,7 +201,7 @@ export function MapScreen({
             </span>
             <button
               onClick={handleClearSearch}
-              className="p-1 hover:bg-primary/20 rounded-lg transition-colors"
+              className="p-1 hover:bg-primary/20 rounded-lg transition-colors cursor-pointer"
             >
               <IconX className="w-4 h-4 text-primary" />
             </button>
@@ -268,7 +268,7 @@ export function MapScreen({
               onClick={() =>
                 setSheetHeight(sheetHeight === "full" ? "half" : "full")
               }
-              className="p-2 hover:bg-muted rounded-lg transition-colors"
+              className="p-2 hover:bg-muted rounded-lg transition-colors cursor-pointer"
             >
               <IconChevronUp
                 className={`w-5 h-5 text-muted-foreground transition-transform ${

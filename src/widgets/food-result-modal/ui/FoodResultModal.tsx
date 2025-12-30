@@ -30,7 +30,7 @@ export function FoodResultModal({
     >
       {/* Backdrop */}
       <motion.div
-        className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+        className="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -105,7 +105,7 @@ export function FoodResultModal({
             {/* Find Nearby Button - iOS style primary */}
             <button
               onClick={onFindNearby}
-              className="w-full py-4 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white rounded-2xl transition-all duration-150 flex items-center justify-center gap-3 active:scale-[0.98] shadow-md"
+              className="w-full py-4 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white rounded-2xl transition-all duration-150 flex items-center justify-center gap-3 active:scale-[0.98] shadow-md cursor-pointer"
             >
               <IconMapPin className="w-5 h-5" />
               <span>근처 음식점 찾기</span>
@@ -114,7 +114,7 @@ export function FoodResultModal({
             {/* Pick Again Button - iOS style secondary */}
             <button
               onClick={onPickAgain}
-              className="w-full py-4 bg-gray-100 hover:bg-gray-200 active:bg-gray-300 text-gray-900 rounded-2xl transition-all duration-150 flex items-center justify-center gap-3 active:scale-[0.98]"
+              className="w-full py-4 bg-gray-100 hover:bg-gray-200 active:bg-gray-300 text-gray-900 rounded-2xl transition-all duration-150 flex items-center justify-center gap-3 active:scale-[0.98] cursor-pointer"
             >
               <IconRefresh className="w-5 h-5" />
               <span>다시 뽑기</span>
@@ -125,7 +125,7 @@ export function FoodResultModal({
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 p-2 bg-gray-100 hover:bg-gray-200 rounded-full transition-all duration-150"
+          className="absolute top-4 right-4 p-2 bg-gray-100 hover:bg-gray-200 rounded-full transition-all duration-150 cursor-pointer"
         >
           <IconX className="w-5 h-5 text-gray-500" />
         </button>

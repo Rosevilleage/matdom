@@ -120,7 +120,7 @@ export function HomeScreen() {
         <button
           onClick={handlePickFood}
           disabled={isRolling}
-          className="w-full py-5 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 disabled:bg-indigo-400 disabled:cursor-not-allowed text-white rounded-2xl transition-all duration-150 flex items-center justify-center gap-3 active:scale-[0.98] shadow-lg"
+          className="w-full py-5 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 disabled:bg-indigo-400 disabled:cursor-not-allowed cursor-pointer text-white rounded-2xl transition-all duration-150 flex items-center justify-center gap-3 active:scale-[0.98] shadow-lg"
         >
           <div className="w-6 h-6 flex items-center justify-center bg-white rounded-lg">
             <SlotMachineIcon className="w-5 h-5" />
@@ -132,7 +132,7 @@ export function HomeScreen() {
 
         <button
           onClick={handleShowNearbyRestaurants}
-          className="w-full py-5 bg-white hover:bg-gray-50 active:bg-gray-100 text-indigo-600 border-2 border-indigo-600 rounded-2xl transition-all duration-150 flex items-center justify-center gap-3 active:scale-[0.98] shadow-lg"
+          className="w-full py-5 bg-white hover:bg-gray-50 active:bg-gray-100 text-indigo-600 border-2 border-indigo-600 rounded-2xl transition-all duration-150 flex items-center justify-center gap-3 active:scale-[0.98] shadow-lg cursor-pointer"
         >
           <IconMapPin className="w-6 h-6" />
           <span className="text-lg">내 주위 음식점 보기</span>
