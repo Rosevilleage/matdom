@@ -60,19 +60,48 @@ export function HomeScreen() {
     <div className="flex flex-col h-full px-6 pt-12 pb-24 relative">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-foreground mb-2">오늘 뭐 먹지?</h1>
-        <p className="text-muted-foreground">음식을 랜덤으로 추천받아보세요</p>
+        <div className="flex items-center justify-center gap-3 mb-3">
+          <span className="text-4xl" style={{ animationDuration: "2s" }}>
+            🍽️
+          </span>
+          <h1
+            className="text-4xl tablet:text-5xl font-bold animate-gradient"
+            style={{
+              background:
+                "linear-gradient(90deg, #4F46E5 0%, #7C3AED 50%, #4F46E5 100%)",
+              backgroundSize: "200% 200%",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}
+          >
+            오늘 뭐 먹지?
+          </h1>
+          <span
+            className="text-4xl"
+            style={{ animationDuration: "2s", animationDelay: "0.5s" }}
+          >
+            🤔
+          </span>
+        </div>
+        <p className="text-muted-foreground text-base tablet:text-lg">
+          음식을 랜덤으로 추천받아보세요
+        </p>
       </div>
 
       {/* Main Content Area */}
       <div className="flex-1 flex flex-col items-center justify-center">
         {/* 슬롯머신 아이콘 - 초기 상태 */}
         {!isRolling && !showResult && (
-          <div className="mb-12 animate-bounce">
-            <div className="w-32 h-32 rounded-3xl bg-white flex items-center justify-center shadow-2xl">
+          <button
+            onClick={handleRollDice}
+            className="mb-12 animate-bounce cursor-pointer active:scale-95 transition-transform"
+            aria-label="음식 뽑기"
+          >
+            <div className="w-32 h-32 rounded-3xl bg-white flex items-center justify-center shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-200">
               <SlotMachineIcon className="w-24 h-24" />
             </div>
-          </div>
+          </button>
         )}
 
         {/* Empty State Message */}
