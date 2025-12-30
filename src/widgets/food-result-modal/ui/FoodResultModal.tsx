@@ -5,7 +5,7 @@ import { getFoodIcon } from "@/entities/food";
 interface FoodResultModalProps {
   foodName: string;
   onFindNearby: () => void;
-  onRollAgain: () => void;
+  onPickAgain: () => void;
   onClose: () => void;
 }
 
@@ -18,7 +18,7 @@ const renderFoodIcon = (foodName: string, className?: string) => {
 export function FoodResultModal({
   foodName,
   onFindNearby,
-  onRollAgain,
+  onPickAgain,
   onClose,
 }: FoodResultModalProps) {
   return (
@@ -111,9 +111,9 @@ export function FoodResultModal({
               <span>근처 음식점 찾기</span>
             </button>
 
-            {/* Roll Again Button - iOS style secondary */}
+            {/* Pick Again Button - iOS style secondary */}
             <button
-              onClick={onRollAgain}
+              onClick={onPickAgain}
               className="w-full py-4 bg-gray-100 hover:bg-gray-200 active:bg-gray-300 text-gray-900 rounded-2xl transition-all duration-150 flex items-center justify-center gap-3 active:scale-[0.98]"
             >
               <IconRefresh className="w-5 h-5" />

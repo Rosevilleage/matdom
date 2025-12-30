@@ -12,7 +12,7 @@ export function HomeScreen() {
   const [result, setResult] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
 
-  const handleRollDice = () => {
+  const handlePickFood = () => {
     if (isRolling) return;
 
     setIsRolling(true);
@@ -30,11 +30,11 @@ export function HomeScreen() {
     setShowResult(true);
   };
 
-  const handleRollAgain = () => {
+  const handlePickAgain = () => {
     setShowResult(false);
     setResult(null);
     setTimeout(() => {
-      handleRollDice();
+      handlePickFood();
     }, 200);
   };
 
@@ -94,7 +94,7 @@ export function HomeScreen() {
         {/* 슬롯머신 아이콘 - 초기 상태 */}
         {!isRolling && !showResult && (
           <button
-            onClick={handleRollDice}
+            onClick={handlePickFood}
             className="mb-12 animate-bounce cursor-pointer active:scale-95 transition-transform"
             aria-label="음식 뽑기"
           >
@@ -118,7 +118,7 @@ export function HomeScreen() {
       {/* Roll Dice Button */}
       <div className="mt-auto space-y-3">
         <button
-          onClick={handleRollDice}
+          onClick={handlePickFood}
           disabled={isRolling}
           className="w-full py-5 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 disabled:bg-indigo-400 disabled:cursor-not-allowed text-white rounded-2xl transition-all duration-150 flex items-center justify-center gap-3 active:scale-[0.98] shadow-lg"
         >
@@ -155,7 +155,7 @@ export function HomeScreen() {
           <FoodResultModal
             foodName={result}
             onFindNearby={handleFindNearby}
-            onRollAgain={handleRollAgain}
+            onPickAgain={handlePickAgain}
             onClose={handleClose}
           />
         )}
