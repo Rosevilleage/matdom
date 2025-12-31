@@ -1,86 +1,56 @@
 <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- 그림자 -->
-  <ellipse cx="60" cy="90" rx="36" ry="6" fill="#000000" opacity="0.2"/>
-  
-  <!-- 그릇 -->
-  <path d="M28 52L28 62C28 72 38 82 60 82C82 82 92 72 92 62L92 52H28Z" fill="#E8E8E8"/>
-  <path d="M28 52L28 62C28 72 38 82 60 82C82 82 92 72 92 62L92 52H28Z" fill="url(#bowl-gradient)"/>
-  <ellipse cx="60" cy="52" rx="32" ry="8" fill="#F5F5F5"/>
-  <path d="M28 52C28 52 35 48 60 48C85 48 92 52 92 52" stroke="#D0D0D0" stroke-width="2"/>
-  
-  <!-- 그릇 외부 라인 -->
-  <path d="M28 52C28 52 26 56 26 62C26 73 37 84 60 84C83 84 94 73 94 62C94 56 92 52 92 52" 
-        stroke="#C0C0C0" stroke-width="1.5" fill="none" opacity="0.6"/>
-  
-  <!-- 국물 -->
-  <ellipse cx="60" cy="52" rx="30" ry="7" fill="#F5E6D3" opacity="0.7"/>
-  <ellipse cx="60" cy="52" rx="28" ry="6" fill="#FFF8E8" opacity="0.5"/>
-  
-  <!-- 국물 기름층 -->
-  <ellipse cx="50" cy="52" rx="4" ry="2" fill="#FFD700" opacity="0.3"/>
-  <ellipse cx="68" cy="53" rx="5" ry="2.5" fill="#FFD700" opacity="0.3"/>
-  <ellipse cx="42" cy="54" rx="3" ry="1.5" fill="#FFD700" opacity="0.2"/>
-  
-  <!-- 면 (여러 층) -->
-  <path d="M32 54C32 54 38 50 45 52C52 54 56 50 60 50C64 50 68 54 75 52C82 50 88 54 88 54" 
-        stroke="#FFF5E6" stroke-width="3.5" stroke-linecap="round" opacity="0.9"/>
-  <path d="M30 56C30 56 36 54 44 56C52 58 58 54 60 54C62 54 68 58 76 56C84 54 90 56 90 56" 
-        stroke="#FFF5E6" stroke-width="3.5" stroke-linecap="round" opacity="0.9"/>
-  <path d="M32 59C32 59 40 57 48 59C56 61 60 58 64 58C68 58 72 61 80 59C88 57 88 59 88 59" 
-        stroke="#FFF5E6" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
-  <path d="M34 62C34 62 42 60 50 62C58 64 62 61 66 61C70 61 74 64 82 62C86 61 86 62 86 62" 
-        stroke="#FFF5E6" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
-  <path d="M36 65C36 65 44 63 52 65C60 67 64 64 68 64C72 64 76 67 84 65" 
-        stroke="#FFF5E6" stroke-width="2.5" stroke-linecap="round" opacity="0.75"/>
-  
-  <!-- 계란 반숙 -->
-  <ellipse cx="60" cy="46" rx="8" ry="7" fill="#FFFFFF"/>
-  <ellipse cx="60" cy="46" rx="8" ry="7" fill="url(#egg-white-gradient)"/>
-  <circle cx="60" cy="46" r="4" fill="#FFD54F"/>
-  <circle cx="60" cy="46" r="4" fill="url(#egg-yolk-gradient)"/>
-  <circle cx="59" cy="45" r="1.5" fill="#FFE57F" opacity="0.8"/>
-  
-  <!-- 대파 -->
-  <rect x="46" y="48" width="3" height="8" rx="1.5" fill="#A8D97C" transform="rotate(-15 47.5 52)"/>
-  <rect x="70" y="48" width="3" height="7" rx="1.5" fill="#A8D97C" transform="rotate(20 71.5 51.5)"/>
-  <rect x="38" y="50" width="2.5" height="6" rx="1.25" fill="#A8D97C" transform="rotate(-10 39.25 53)"/>
-  <rect x="78" y="50" width="2.5" height="6" rx="1.25" fill="#A8D97C" transform="rotate(15 79.25 53)"/>
-  
-  <!-- 대파 디테일 -->
-  <line x1="47" y1="50" x2="47" y2="54" stroke="#8BC34A" stroke-width="1" opacity="0.6"/>
-  <line x1="71" y1="50" x2="71" y2="55" stroke="#8BC34A" stroke-width="1" opacity="0.6"/>
-  
-  <!-- 숙주나물 -->
-  <path d="M42 58C42 58 44 56 46 58" stroke="#F5F5DC" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-  <path d="M74 58C74 58 76 56 78 58" stroke="#F5F5DC" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-  <path d="M50 60C50 60 52 58 54 60" stroke="#F5F5DC" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
-  
-  <!-- 고기 슬라이스 -->
-  <ellipse cx="52" cy="50" rx="5" ry="3" fill="#D4A574" opacity="0.8"/>
-  <ellipse cx="68" cy="51" rx="5" ry="3" fill="#D4A574" opacity="0.8"/>
-  <path d="M50 50L54 50" stroke="#C49363" stroke-width="0.5" opacity="0.6"/>
-  <path d="M66 51L70 51" stroke="#C49363" stroke-width="0.5" opacity="0.6"/>
-  
-  <!-- 젓가락 -->
-  <rect x="76" y="30" width="2.5" height="38" rx="1.25" fill="#8B6F47" transform="rotate(18 77 49)"/>
-  <rect x="81" y="28" width="2.5" height="38" rx="1.25" fill="#8B6F47" transform="rotate(22 82 47)"/>
-  <rect x="76.5" y="30" width="1.5" height="38" rx="0.75" fill="#A68A5F" transform="rotate(18 77 49)"/>
-  <rect x="81.5" y="28" width="1.5" height="38" rx="0.75" fill="#A68A5F" transform="rotate(22 82 47)"/>
-  
-  <defs>
-    <linearGradient id="bowl-gradient" x1="60" y1="52" x2="60" y2="82">
-      <stop offset="0%" stop-color="#F5F5F5" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#D0D0D0" stop-opacity="0.7"/>
-    </linearGradient>
-    <radialGradient id="egg-white-gradient" cx="60" cy="46">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="70%" stop-color="#FFFEF5"/>
-      <stop offset="100%" stop-color="#F5F5E8"/>
-    </radialGradient>
-    <radialGradient id="egg-yolk-gradient" cx="59" cy="45">
-      <stop offset="0%" stop-color="#FFE57F"/>
-      <stop offset="60%" stop-color="#FFD54F"/>
-      <stop offset="100%" stop-color="#FFC107"/>
-    </radialGradient>
-  </defs>
+<path opacity="0.2" d="M60 96C79.8823 96 96 93.3137 96 90C96 86.6863 79.8823 84 60 84C40.1177 84 24 86.6863 24 90C24 93.3137 40.1177 96 60 96Z" fill="black"/>
+<path d="M28 52V62C28 72 38 82 60 82C82 82 92 72 92 62V52H28Z" fill="#E8E8E8"/>
+<path d="M28 52V62C28 72 38 82 60 82C82 82 92 72 92 62V52H28Z" fill="url(#paint0_linear_17_299)"/>
+<path d="M60 60C77.6731 60 92 56.4183 92 52C92 47.5817 77.6731 44 60 44C42.3269 44 28 47.5817 28 52C28 56.4183 42.3269 60 60 60Z" fill="#F5F5F5"/>
+<path d="M28 52C28 52 35 48 60 48C85 48 92 52 92 52" stroke="#D0D0D0" stroke-width="2"/>
+<path opacity="0.6" d="M28 52C28 52 26 56 26 62C26 73 37 84 60 84C83 84 94 73 94 62C94 56 92 52 92 52" stroke="#C0C0C0" stroke-width="1.5"/>
+<path opacity="0.7" d="M60 59C76.5685 59 90 55.866 90 52C90 48.134 76.5685 45 60 45C43.4315 45 30 48.134 30 52C30 55.866 43.4315 59 60 59Z" fill="#F5E6D3"/>
+<path opacity="0.5" d="M60 58C75.464 58 88 55.3137 88 52C88 48.6863 75.464 46 60 46C44.536 46 32 48.6863 32 52C32 55.3137 44.536 58 60 58Z" fill="#FFF8E8"/>
+<path opacity="0.3" d="M50 54C52.2091 54 54 53.1046 54 52C54 50.8954 52.2091 50 50 50C47.7909 50 46 50.8954 46 52C46 53.1046 47.7909 54 50 54Z" fill="#FFD700"/>
+<path opacity="0.3" d="M68 55.5C70.7614 55.5 73 54.3807 73 53C73 51.6193 70.7614 50.5 68 50.5C65.2386 50.5 63 51.6193 63 53C63 54.3807 65.2386 55.5 68 55.5Z" fill="#FFD700"/>
+<path opacity="0.2" d="M42 55.5C43.6569 55.5 45 54.8284 45 54C45 53.1716 43.6569 52.5 42 52.5C40.3431 52.5 39 53.1716 39 54C39 54.8284 40.3431 55.5 42 55.5Z" fill="#FFD700"/>
+<path opacity="0.9" d="M32 54C32 54 38 50 45 52C52 54 56 50 60 50C64 50 68 54 75 52C82 50 88 54 88 54" stroke="#FFF5E6" stroke-width="3.5" stroke-linecap="round"/>
+<path opacity="0.9" d="M30 56C30 56 36 54 44 56C52 58 58 54 60 54C62 54 68 58 76 56C84 54 90 56 90 56" stroke="#FFF5E6" stroke-width="3.5" stroke-linecap="round"/>
+<path opacity="0.85" d="M32 59C32 59 40 57 48 59C56 61 60 58 64 58C68 58 72 61 80 59C88 57 88 59 88 59" stroke="#FFF5E6" stroke-width="3" stroke-linecap="round"/>
+<path opacity="0.8" d="M34 62C34 62 42 60 50 62C58 64 62 61 66 61C70 61 74 64 82 62C86 61 86 62 86 62" stroke="#FFF5E6" stroke-width="3" stroke-linecap="round"/>
+<path opacity="0.75" d="M36 65C36 65 44 63 52 65C60 67 64 64 68 64C72 64 76 67 84 65" stroke="#FFF5E6" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M60 53C64.4183 53 68 49.866 68 46C68 42.134 64.4183 39 60 39C55.5817 39 52 42.134 52 46C52 49.866 55.5817 53 60 53Z" fill="white"/>
+<path d="M60 53C64.4183 53 68 49.866 68 46C68 42.134 64.4183 39 60 39C55.5817 39 52 42.134 52 46C52 49.866 55.5817 53 60 53Z" fill="url(#paint1_radial_17_299)"/>
+<path d="M60 50C62.2091 50 64 48.2091 64 46C64 43.7909 62.2091 42 60 42C57.7909 42 56 43.7909 56 46C56 48.2091 57.7909 50 60 50Z" fill="#FFD54F"/>
+<path d="M60 50C62.2091 50 64 48.2091 64 46C64 43.7909 62.2091 42 60 42C57.7909 42 56 43.7909 56 46C56 48.2091 57.7909 50 60 50Z" fill="url(#paint2_radial_17_299)"/>
+<path opacity="0.8" d="M59 46.5C59.8284 46.5 60.5 45.8284 60.5 45C60.5 44.1716 59.8284 43.5 59 43.5C58.1716 43.5 57.5 44.1716 57.5 45C57.5 45.8284 58.1716 46.5 59 46.5Z" fill="#FFE57F"/>
+<path d="M48.3019 49.197C48.0875 48.3968 47.265 47.9219 46.4648 48.1363C45.6646 48.3507 45.1897 49.1732 45.4041 49.9734L46.6982 54.8031C46.9126 55.6033 47.7351 56.0781 48.5353 55.8637C49.3355 55.6493 49.8104 54.8268 49.596 54.0266L48.3019 49.197Z" fill="#A8D97C"/>
+<path d="M73.5936 50.1336C73.877 49.3551 73.4756 48.4944 72.6971 48.211C71.9187 47.9277 71.0579 48.3291 70.7746 49.1075L69.4065 52.8663C69.1231 53.6448 69.5245 54.5055 70.303 54.7889C71.0815 55.0722 71.9422 54.6708 72.2256 53.8924L73.5936 50.1336Z" fill="#A8D97C"/>
+<path d="M40.1771 51.0596C40.0572 50.3797 39.4089 49.9258 38.7291 50.0456C38.0492 50.1655 37.5952 50.8138 37.7151 51.4937L38.3229 54.9405C38.4428 55.6204 39.0911 56.0744 39.7709 55.9545C40.4508 55.8346 40.9048 55.1863 40.7849 54.5064L40.1771 51.0596Z" fill="#A8D97C"/>
+<path d="M80.9104 51.6331C81.0891 50.9663 80.6933 50.2809 80.0265 50.1022C79.3597 49.9235 78.6742 50.3193 78.4956 50.9861L77.5897 54.3668C77.411 55.0337 77.8068 55.7191 78.4736 55.8978C79.1404 56.0764 79.8258 55.6807 80.0045 55.0139L80.9104 51.6331Z" fill="#A8D97C"/>
+<path opacity="0.6" d="M47 50V54" stroke="#8BC34A"/>
+<path opacity="0.6" d="M71 50V55" stroke="#8BC34A"/>
+<path opacity="0.7" d="M42 58C42 58 44 56 46 58" stroke="#F5F5DC" stroke-width="2" stroke-linecap="round"/>
+<path opacity="0.7" d="M74 58C74 58 76 56 78 58" stroke="#F5F5DC" stroke-width="2" stroke-linecap="round"/>
+<path opacity="0.6" d="M50 60C50 60 52 58 54 60" stroke="#F5F5DC" stroke-width="1.5" stroke-linecap="round"/>
+<path opacity="0.8" d="M52 53C54.7614 53 57 51.6569 57 50C57 48.3431 54.7614 47 52 47C49.2386 47 47 48.3431 47 50C47 51.6569 49.2386 53 52 53Z" fill="#D4A574"/>
+<path opacity="0.8" d="M68 54C70.7614 54 73 52.6569 73 51C73 49.3431 70.7614 48 68 48C65.2386 48 63 49.3431 63 51C63 52.6569 65.2386 54 68 54Z" fill="#D4A574"/>
+<path opacity="0.6" d="M50 50H54" stroke="#C49363" stroke-width="0.5"/>
+<path opacity="0.6" d="M66 51H70" stroke="#C49363" stroke-width="0.5"/>
+<path d="M83.9115 32.5822C84.1249 31.9256 83.7656 31.2205 83.109 31.0071C82.4524 30.7938 81.7472 31.1531 81.5339 31.8097L70.5638 65.5722C70.3505 66.2287 70.7098 66.9339 71.3663 67.1473C72.0229 67.3606 72.7281 67.0013 72.9414 66.3447L83.9115 32.5822Z" fill="#8B6F47"/>
+<path d="M90.0401 31.1044C90.2987 30.4643 89.9895 29.7358 89.3494 29.4772C88.7093 29.2186 87.9808 29.5278 87.7222 30.1679L74.4236 63.0829C74.165 63.723 74.4743 64.4515 75.1144 64.7102C75.7544 64.9688 76.483 64.6595 76.7416 64.0194L90.0401 31.1044Z" fill="#8B6F47"/>
+<path d="M83.5906 31.9522C83.7186 31.5583 83.503 31.1352 83.109 31.0072C82.7151 30.8792 82.292 31.0947 82.164 31.4887L70.8849 66.2022C70.7569 66.5962 70.9725 67.0193 71.3664 67.1473C71.7603 67.2753 72.1835 67.0597 72.3115 66.6658L83.5906 31.9522Z" fill="#A68A5F"/>
+<path d="M89.7636 30.4535C89.9188 30.0694 89.7332 29.6323 89.3492 29.4771C88.9651 29.322 88.528 29.5075 88.3729 29.8916L74.6997 63.7338C74.5445 64.1178 74.7301 64.5549 75.1141 64.7101C75.4982 64.8653 75.9353 64.6797 76.0905 64.2957L89.7636 30.4535Z" fill="#A68A5F"/>
+<defs>
+<linearGradient id="paint0_linear_17_299" x1="3868" y1="1612" x2="3868" y2="2512" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F5F5F5" stop-opacity="0.3"/>
+<stop offset="1" stop-color="#D0D0D0" stop-opacity="0.7"/>
+</linearGradient>
+<radialGradient id="paint1_radial_17_299" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1012 683) scale(8 7)">
+<stop stop-color="white"/>
+<stop offset="0.7" stop-color="#FFFEF5"/>
+<stop offset="1" stop-color="#F5F5E8"/>
+</radialGradient>
+<radialGradient id="paint2_radial_17_299" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(528 402) scale(4)">
+<stop stop-color="#FFE57F"/>
+<stop offset="0.6" stop-color="#FFD54F"/>
+<stop offset="1" stop-color="#FFC107"/>
+</radialGradient>
+</defs>
 </svg>

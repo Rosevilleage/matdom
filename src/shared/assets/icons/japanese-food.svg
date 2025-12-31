@@ -1,63 +1,33 @@
 <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- 그림자 -->
-  <ellipse cx="60" cy="88" rx="32" ry="6" fill="#000000" opacity="0.2"/>
-  
-  <!-- 초밥 밥 -->
-  <ellipse cx="60" cy="65" rx="28" ry="18" fill="#FFFFFF"/>
-  <ellipse cx="60" cy="65" rx="28" ry="18" fill="url(#rice-gradient)"/>
-  <path d="M32 65C32 65 35 58 60 58C85 58 88 65 88 65" stroke="#F5F0E8" stroke-width="2" opacity="0.7"/>
-  
-  <!-- 밥 알갱이 텍스처 -->
-  <circle cx="50" cy="62" r="1.5" fill="#FFF9F0" opacity="0.8"/>
-  <circle cx="55" cy="65" r="1.5" fill="#FFF9F0" opacity="0.8"/>
-  <circle cx="60" cy="63" r="1.5" fill="#FFF9F0" opacity="0.8"/>
-  <circle cx="65" cy="66" r="1.5" fill="#FFF9F0" opacity="0.8"/>
-  <circle cx="70" cy="64" r="1.5" fill="#FFF9F0" opacity="0.8"/>
-  <circle cx="48" cy="67" r="1" fill="#FFF9F0" opacity="0.7"/>
-  <circle cx="72" cy="68" r="1" fill="#FFF9F0" opacity="0.7"/>
-  
-  <!-- 연어 회 -->
-  <ellipse cx="60" cy="48" rx="26" ry="10" fill="#FF9999"/>
-  <ellipse cx="60" cy="48" rx="26" ry="10" fill="url(#salmon-gradient)"/>
-  <path d="M35 48C35 48 42 44 60 44C78 44 85 48 85 48" stroke="#FF6B6B" stroke-width="1.5" opacity="0.6"/>
-  <path d="M40 49C40 49 46 47 60 47C74 47 80 49 80 49" stroke="#FFB8B8" stroke-width="1" opacity="0.5"/>
-  
-  <!-- 연어 지방층 -->
-  <path d="M38 48L42 48" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
-  <path d="M50 46L54 46" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
-  <path d="M66 46L70 46" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
-  <path d="M78 48L82 48" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
-  
-  <!-- 김 (nori) 띠 -->
-  <path d="M52 52L52 62C52 64 54 65 56 65L64 65C66 65 68 64 68 62L68 52" fill="#1A3B2F" opacity="0.9"/>
-  <path d="M52 52L68 52" stroke="#0F2218" stroke-width="1"/>
-  <rect x="53" y="53" width="14" height="1" fill="#2D5542" opacity="0.5"/>
-  <rect x="53" y="56" width="14" height="0.5" fill="#2D5542" opacity="0.3"/>
-  <rect x="53" y="59" width="14" height="0.5" fill="#2D5542" opacity="0.3"/>
-  
-  <!-- 와사비 -->
-  <ellipse cx="75" cy="72" rx="4" ry="3" fill="#B8D96D"/>
-  <ellipse cx="75" cy="72" rx="3" ry="2" fill="#C8E87D"/>
-  <path d="M74 71L76 71" stroke="#A0C85A" stroke-width="0.5"/>
-  
-  <!-- 생강 -->
-  <path d="M42 70C42 70 44 68 46 70C48 72 46 74 44 74C42 74 40 72 42 70Z" fill="#FFD9D9"/>
-  <path d="M42 70C42 70 44 68 46 70" stroke="#FFAAAA" stroke-width="0.5" fill="none"/>
-  
-  <!-- 간장 그릇 -->
-  <ellipse cx="78" cy="78" rx="8" ry="3" fill="#4A2511"/>
-  <path d="M70 78L70 80C70 81 73 82 78 82C83 82 86 81 86 80L86 78" fill="#3D1F0E"/>
-  
-  <defs>
-    <linearGradient id="rice-gradient" x1="60" y1="47" x2="60" y2="83">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="50%" stop-color="#FFF9F0"/>
-      <stop offset="100%" stop-color="#F5EBD8"/>
-    </linearGradient>
-    <radialGradient id="salmon-gradient" cx="60" cy="48">
-      <stop offset="0%" stop-color="#FFB8B8"/>
-      <stop offset="50%" stop-color="#FF9999"/>
-      <stop offset="100%" stop-color="#FF7A7A"/>
-    </radialGradient>
-  </defs>
+<path opacity="0.2" d="M60 94C77.6731 94 92 91.3137 92 88C92 84.6863 77.6731 82 60 82C42.3269 82 28 84.6863 28 88C28 91.3137 42.3269 94 60 94Z" fill="black"/>
+<path d="M60 83C75.464 83 88 75.3888 88 66C88 56.6112 75.464 52 60 52C44.536 52 32 56.6112 32 66C32 75.3888 44.536 83 60 83Z" fill="white"/>
+<path d="M60 83C75.464 83 88 75.3888 88 66C88 56.6112 75.464 52.5 60 52.5C44.536 52.5 32 56.6112 32 66C32 75.3888 44.536 83 60 83Z" fill="url(#paint0_linear_17_435)"/>
+<path opacity="0.7" d="M31 66C31 66 34 59 59 59C84 59 87 66 87 66" stroke="#F5F0E8" stroke-width="2"/>
+<path opacity="0.8" d="M50 63.5C50.8284 63.5 51.5 62.8284 51.5 62C51.5 61.1716 50.8284 60.5 50 60.5C49.1716 60.5 48.5 61.1716 48.5 62C48.5 62.8284 49.1716 63.5 50 63.5Z" fill="#FFF9F0"/>
+<path opacity="0.8" d="M55 66.5C55.8284 66.5 56.5 65.8284 56.5 65C56.5 64.1716 55.8284 63.5 55 63.5C54.1716 63.5 53.5 64.1716 53.5 65C53.5 65.8284 54.1716 66.5 55 66.5Z" fill="#FFF9F0"/>
+<path opacity="0.8" d="M60 64.5C60.8284 64.5 61.5 63.8284 61.5 63C61.5 62.1716 60.8284 61.5 60 61.5C59.1716 61.5 58.5 62.1716 58.5 63C58.5 63.8284 59.1716 64.5 60 64.5Z" fill="#FFF9F0"/>
+<path opacity="0.8" d="M65 67.5C65.8284 67.5 66.5 66.8284 66.5 66C66.5 65.1716 65.8284 64.5 65 64.5C64.1716 64.5 63.5 65.1716 63.5 66C63.5 66.8284 64.1716 67.5 65 67.5Z" fill="#FFF9F0"/>
+<path opacity="0.8" d="M70 65.5C70.8284 65.5 71.5 64.8284 71.5 64C71.5 63.1716 70.8284 62.5 70 62.5C69.1716 62.5 68.5 63.1716 68.5 64C68.5 64.8284 69.1716 65.5 70 65.5Z" fill="#FFF9F0"/>
+<path opacity="0.7" d="M48 68C48.5523 68 49 67.5523 49 67C49 66.4477 48.5523 66 48 66C47.4477 66 47 66.4477 47 67C47 67.5523 47.4477 68 48 68Z" fill="#FFF9F0"/>
+<path opacity="0.7" d="M72 69C72.5523 69 73 68.5523 73 68C73 67.4477 72.5523 67 72 67C71.4477 67 71 67.4477 71 68C71 68.5523 71.4477 69 72 69Z" fill="#FFF9F0"/>
+<path d="M60 72C74.3594 72 86 67.5228 86 62C86 56.4772 74.3594 52 60 52C45.6406 52 34 56.4772 34 62C34 67.5228 45.6406 72 60 72Z" fill="#FF9999"/>
+<path d="M60 72C77.1208 72 91 70.0228 91 64.5C91 58.9772 77.1208 52 60 52C42.8792 52 29.5 58.9772 29.5 64.5C29.5 70.0228 42.8792 72 60 72Z" fill="url(#paint1_radial_17_435)"/>
+<path opacity="0.6" d="M35 59C35 59 42 55 60 55C78 55 85 59 85 59" stroke="#FF6B6B" stroke-width="1.5"/>
+<path opacity="0.5" d="M30 64C30 64 38.7 60 59 60C79.3 60 90 64 90 64" stroke="#FFB8B8"/>
+<path opacity="0.7" d="M38 58H42" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+<path opacity="0.7" d="M50 56H54" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+<path opacity="0.7" d="M66 56H70" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+<path opacity="0.7" d="M78 58H82" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+<defs>
+<linearGradient id="paint0_linear_17_435" x1="3392" y1="1647" x2="3392" y2="2871" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="0.5" stop-color="#FFF9F0"/>
+<stop offset="1" stop-color="#F5EBD8"/>
+</linearGradient>
+<radialGradient id="paint1_radial_17_435" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(3749 1012) scale(31 10)">
+<stop stop-color="#FFB8B8"/>
+<stop offset="0.5" stop-color="#FF9999"/>
+<stop offset="1" stop-color="#FF7A7A"/>
+</radialGradient>
+</defs>
 </svg>
