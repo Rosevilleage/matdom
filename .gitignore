@@ -34,3 +34,9 @@ dist-ssr
 
 # Cursor rules
 .cursor/rules
+
+# Claude documentation
+docs/
+CLAUDE.md
+.claude/
+.mcp.json
